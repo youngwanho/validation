@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffebd2;
+}
+
+form {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form fieldset {
+    width: 100%;
+    border: none;
+    flex-direction: column;
+    display: flex;
+    margin-top: 5px;
+}
+
+fieldset input {
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #ffa364;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+fieldset .error-box {
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+
+.error-box p {
+    display: none;
+}
+
+.error-box p.show {
+    display: block;
+}
